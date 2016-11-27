@@ -1,0 +1,39 @@
+﻿* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.slide-main {
+    position: relative;
+    text-align: center;
+    max-width: 588px;
+    max-height: 260px;
+    overflow: hidden;
+    border: 1px solid #808080;
+}
+
+.slide-main-img {
+    position: relative;
+    text-align: center;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+    .slide-main-img > img {
+        width: 588px;
+        height: 260px;
+        z-index: -1;
+    }
+
+    .slide-main-img .slide-btn-prev {
+        position: absolute;
+        float: left;
+        z-index: 10;
+        border: 2px solid #000000;
+    }
+
+    .slide-main-img .slide-btn-next {
+        position: absolute;
+        float: right;
+        z-index: 10;
+    }
